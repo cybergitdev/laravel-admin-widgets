@@ -1,0 +1,29 @@
+{
+    "name": "cybertron/laravel-admin-widgets",
+    "description": "Front-end widgets",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "admin",
+        "widgets",
+        "cybertron"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OptimusPrime",
+            "email": "cybergit@yandex.ru",
+            "homepage": "https://github.com/cybergitdev/laravel-admin-widgets",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cybertron\\LaravelAdminWidgets\\": "src"
+        }
+    }
+}
